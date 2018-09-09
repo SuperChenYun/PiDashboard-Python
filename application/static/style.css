@@ -1,0 +1,61 @@
+/*common*/
+html, body {
+    background: black !important;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    font-family: "Microsoft YaHei UI";
+}
+
+.container-fluid {
+
+}
+
+/*card*/
+.pi-card {
+    margin-top: 15px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.pi-card-header {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-shadow: #cdcbcb 0.1em 0.2em 0.2em;
+}
+
+.pi-card-body {
+    font-size: 1rem;
+    padding: 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pi-card-footer {
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.pi-card-body, .pi-card-footer {
+    border-top: 1px solid #eeeeee;
+}
+
+#now_datatime {
+    height: 6.8rem;
+}
+#now_data{
+    position: absolute;
+    bottom: 0;
+    right: 0.8rem;
+    color:#999999;
+}
+#now_time{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size:3.6rem;
+    text-shadow: #a3a3a3 0.1em 0.1em 0.2em;
+}
